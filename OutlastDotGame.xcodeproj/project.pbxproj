@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DFF2115819102AA40052C291 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFF2115719102AA40052C291 /* Foundation.framework */; };
+		DFF2115A19102AA40052C291 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFF2115919102AA40052C291 /* CoreGraphics.framework */; };
+		DFF2115C19102AA40052C291 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFF2115B19102AA40052C291 /* UIKit.framework */; };
+		DFF2115E19102AA40052C291 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFF2115D19102AA40052C291 /* SpriteKit.framework */; };
+		DFF2116419102AA40052C291 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DFF2116219102AA40052C291 /* InfoPlist.strings */; };
+		DFF2116619102AA40052C291 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DFF2116519102AA40052C291 /* main.m */; };
+		DFF2116A19102AA40052C291 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DFF2116919102AA40052C291 /* AppDelegate.m */; };
+		DFF2116D19102AA40052C291 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFF2116B19102AA40052C291 /* Main_iPhone.storyboard */; };
+		DFF2117019102AA40052C291 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFF2116E19102AA40052C291 /* Main_iPad.storyboard */; };
+		DFF2117319102AA40052C291 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFF2117219102AA40052C291 /* ViewController.m */; };
+		DFF2117619102AA40052C291 /* MyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = DFF2117519102AA40052C291 /* MyScene.m */; };
+		DFF2117819102AA40052C291 /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF2117719102AA40052C291 /* Spaceship.png */; };
+		DFF2117A19102AA40052C291 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFF2117919102AA40052C291 /* Images.xcassets */; };
+		DFF2118119102AA40052C291 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFF2118019102AA40052C291 /* XCTest.framework */; };
+		DFF2118219102AA40052C291 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFF2115719102AA40052C291 /* Foundation.framework */; };
+		DFF2118319102AA40052C291 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFF2115B19102AA40052C291 /* UIKit.framework */; };
+		DFF2118B19102AA40052C291 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DFF2118919102AA40052C291 /* InfoPlist.strings */; };
+		DFF2118D19102AA40052C291 /* OutlastDotGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DFF2118C19102AA40052C291 /* OutlastDotGameTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DFF2118419102AA40052C291 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFF2114C19102AA40052C291 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFF2115319102AA40052C291;
+			remoteInfo = OutlastDotGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DFF2115419102AA40052C291 /* OutlastDotGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OutlastDotGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFF2115719102AA40052C291 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DFF2115919102AA40052C291 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DFF2115B19102AA40052C291 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DFF2115D19102AA40052C291 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		DFF2116119102AA40052C291 /* OutlastDotGame-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OutlastDotGame-Info.plist"; sourceTree = "<group>"; };
+		DFF2116319102AA40052C291 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DFF2116519102AA40052C291 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DFF2116719102AA40052C291 /* OutlastDotGame-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OutlastDotGame-Prefix.pch"; sourceTree = "<group>"; };
+		DFF2116819102AA40052C291 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DFF2116919102AA40052C291 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DFF2116C19102AA40052C291 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		DFF2116F19102AA40052C291 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		DFF2117119102AA40052C291 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DFF2117219102AA40052C291 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DFF2117419102AA40052C291 /* MyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyScene.h; sourceTree = "<group>"; };
+		DFF2117519102AA40052C291 /* MyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyScene.m; sourceTree = "<group>"; };
+		DFF2117719102AA40052C291 /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
+		DFF2117919102AA40052C291 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DFF2117F19102AA40052C291 /* OutlastDotGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OutlastDotGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFF2118019102AA40052C291 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		DFF2118819102AA40052C291 /* OutlastDotGameTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OutlastDotGameTests-Info.plist"; sourceTree = "<group>"; };
+		DFF2118A19102AA40052C291 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DFF2118C19102AA40052C291 /* OutlastDotGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OutlastDotGameTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DFF2115119102AA40052C291 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFF2115A19102AA40052C291 /* CoreGraphics.framework in Frameworks */,
+				DFF2115C19102AA40052C291 /* UIKit.framework in Frameworks */,
+				DFF2115E19102AA40052C291 /* SpriteKit.framework in Frameworks */,
+				DFF2115819102AA40052C291 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFF2117C19102AA40052C291 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFF2118119102AA40052C291 /* XCTest.framework in Frameworks */,
+				DFF2118319102AA40052C291 /* UIKit.framework in Frameworks */,
+				DFF2118219102AA40052C291 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DFF2114B19102AA40052C291 = {
+			isa = PBXGroup;
+			children = (
+				DFF2115F19102AA40052C291 /* OutlastDotGame */,
+				DFF2118619102AA40052C291 /* OutlastDotGameTests */,
+				DFF2115619102AA40052C291 /* Frameworks */,
+				DFF2115519102AA40052C291 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DFF2115519102AA40052C291 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DFF2115419102AA40052C291 /* OutlastDotGame.app */,
+				DFF2117F19102AA40052C291 /* OutlastDotGameTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DFF2115619102AA40052C291 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DFF2115719102AA40052C291 /* Foundation.framework */,
+				DFF2115919102AA40052C291 /* CoreGraphics.framework */,
+				DFF2115B19102AA40052C291 /* UIKit.framework */,
+				DFF2115D19102AA40052C291 /* SpriteKit.framework */,
+				DFF2118019102AA40052C291 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DFF2115F19102AA40052C291 /* OutlastDotGame */ = {
+			isa = PBXGroup;
+			children = (
+				DFF2116819102AA40052C291 /* AppDelegate.h */,
+				DFF2116919102AA40052C291 /* AppDelegate.m */,
+				DFF2116B19102AA40052C291 /* Main_iPhone.storyboard */,
+				DFF2116E19102AA40052C291 /* Main_iPad.storyboard */,
+				DFF2117119102AA40052C291 /* ViewController.h */,
+				DFF2117219102AA40052C291 /* ViewController.m */,
+				DFF2117419102AA40052C291 /* MyScene.h */,
+				DFF2117519102AA40052C291 /* MyScene.m */,
+				DFF2117719102AA40052C291 /* Spaceship.png */,
+				DFF2117919102AA40052C291 /* Images.xcassets */,
+				DFF2116019102AA40052C291 /* Supporting Files */,
+			);
+			path = OutlastDotGame;
+			sourceTree = "<group>";
+		};
+		DFF2116019102AA40052C291 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DFF2116119102AA40052C291 /* OutlastDotGame-Info.plist */,
+				DFF2116219102AA40052C291 /* InfoPlist.strings */,
+				DFF2116519102AA40052C291 /* main.m */,
+				DFF2116719102AA40052C291 /* OutlastDotGame-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DFF2118619102AA40052C291 /* OutlastDotGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				DFF2118C19102AA40052C291 /* OutlastDotGameTests.m */,
+				DFF2118719102AA40052C291 /* Supporting Files */,
+			);
+			path = OutlastDotGameTests;
+			sourceTree = "<group>";
+		};
+		DFF2118719102AA40052C291 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DFF2118819102AA40052C291 /* OutlastDotGameTests-Info.plist */,
+				DFF2118919102AA40052C291 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DFF2115319102AA40052C291 /* OutlastDotGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFF2119019102AA40052C291 /* Build configuration list for PBXNativeTarget "OutlastDotGame" */;
+			buildPhases = (
+				DFF2115019102AA40052C291 /* Sources */,
+				DFF2115119102AA40052C291 /* Frameworks */,
+				DFF2115219102AA40052C291 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OutlastDotGame;
+			productName = OutlastDotGame;
+			productReference = DFF2115419102AA40052C291 /* OutlastDotGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DFF2117E19102AA40052C291 /* OutlastDotGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFF2119319102AA40052C291 /* Build configuration list for PBXNativeTarget "OutlastDotGameTests" */;
+			buildPhases = (
+				DFF2117B19102AA40052C291 /* Sources */,
+				DFF2117C19102AA40052C291 /* Frameworks */,
+				DFF2117D19102AA40052C291 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFF2118519102AA40052C291 /* PBXTargetDependency */,
+			);
+			name = OutlastDotGameTests;
+			productName = OutlastDotGameTests;
+			productReference = DFF2117F19102AA40052C291 /* OutlastDotGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DFF2114C19102AA40052C291 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = ERIC;
+				TargetAttributes = {
+					DFF2117E19102AA40052C291 = {
+						TestTargetID = DFF2115319102AA40052C291;
+					};
+				};
+			};
+			buildConfigurationList = DFF2114F19102AA40052C291 /* Build configuration list for PBXProject "OutlastDotGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DFF2114B19102AA40052C291;
+			productRefGroup = DFF2115519102AA40052C291 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DFF2115319102AA40052C291 /* OutlastDotGame */,
+				DFF2117E19102AA40052C291 /* OutlastDotGameTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DFF2115219102AA40052C291 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFF2117819102AA40052C291 /* Spaceship.png in Resources */,
+				DFF2117A19102AA40052C291 /* Images.xcassets in Resources */,
+				DFF2117019102AA40052C291 /* Main_iPad.storyboard in Resources */,
+				DFF2116D19102AA40052C291 /* Main_iPhone.storyboard in Resources */,
+				DFF2116419102AA40052C291 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFF2117D19102AA40052C291 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFF2118B19102AA40052C291 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DFF2115019102AA40052C291 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFF2117619102AA40052C291 /* MyScene.m in Sources */,
+				DFF2117319102AA40052C291 /* ViewController.m in Sources */,
+				DFF2116A19102AA40052C291 /* AppDelegate.m in Sources */,
+				DFF2116619102AA40052C291 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFF2117B19102AA40052C291 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFF2118D19102AA40052C291 /* OutlastDotGameTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DFF2118519102AA40052C291 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFF2115319102AA40052C291 /* OutlastDotGame */;
+			targetProxy = DFF2118419102AA40052C291 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DFF2116219102AA40052C291 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFF2116319102AA40052C291 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DFF2116B19102AA40052C291 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFF2116C19102AA40052C291 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		DFF2116E19102AA40052C291 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFF2116F19102AA40052C291 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		DFF2118919102AA40052C291 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFF2118A19102AA40052C291 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DFF2118E19102AA40052C291 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DFF2118F19102AA40052C291 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DFF2119119102AA40052C291 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OutlastDotGame/OutlastDotGame-Prefix.pch";
+				INFOPLIST_FILE = "OutlastDotGame/OutlastDotGame-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DFF2119219102AA40052C291 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OutlastDotGame/OutlastDotGame-Prefix.pch";
+				INFOPLIST_FILE = "OutlastDotGame/OutlastDotGame-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DFF2119419102AA40052C291 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OutlastDotGame.app/OutlastDotGame";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OutlastDotGame/OutlastDotGame-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "OutlastDotGameTests/OutlastDotGameTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		DFF2119519102AA40052C291 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OutlastDotGame.app/OutlastDotGame";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OutlastDotGame/OutlastDotGame-Prefix.pch";
+				INFOPLIST_FILE = "OutlastDotGameTests/OutlastDotGameTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DFF2114F19102AA40052C291 /* Build configuration list for PBXProject "OutlastDotGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFF2118E19102AA40052C291 /* Debug */,
+				DFF2118F19102AA40052C291 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFF2119019102AA40052C291 /* Build configuration list for PBXNativeTarget "OutlastDotGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFF2119119102AA40052C291 /* Debug */,
+				DFF2119219102AA40052C291 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DFF2119319102AA40052C291 /* Build configuration list for PBXNativeTarget "OutlastDotGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFF2119419102AA40052C291 /* Debug */,
+				DFF2119519102AA40052C291 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DFF2114C19102AA40052C291 /* Project object */;
+}
