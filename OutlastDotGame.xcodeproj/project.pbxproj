@@ -7,24 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF25A4FD191834670056BA91 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF25A4FC191834670056BA91 /* Social.framework */; };
+		DFCCCCC61914223000AC2F4C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFCCCCC51914223000AC2F4C /* Images.xcassets */; };
 		DFF2115819102AA40052C291 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFF2115719102AA40052C291 /* Foundation.framework */; };
 		DFF2115A19102AA40052C291 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFF2115919102AA40052C291 /* CoreGraphics.framework */; };
 		DFF2115C19102AA40052C291 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFF2115B19102AA40052C291 /* UIKit.framework */; };
 		DFF2115E19102AA40052C291 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFF2115D19102AA40052C291 /* SpriteKit.framework */; };
 		DFF2116419102AA40052C291 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DFF2116219102AA40052C291 /* InfoPlist.strings */; };
-		DFF2116619102AA40052C291 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DFF2116519102AA40052C291 /* main.m */; };
-		DFF2116A19102AA40052C291 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DFF2116919102AA40052C291 /* AppDelegate.m */; };
+		DFF2116619102AA40052C291 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DFF2116519102AA40052C291 /* main.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		DFF2116A19102AA40052C291 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DFF2116919102AA40052C291 /* AppDelegate.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		DFF2116D19102AA40052C291 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFF2116B19102AA40052C291 /* Main_iPhone.storyboard */; };
 		DFF2117019102AA40052C291 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFF2116E19102AA40052C291 /* Main_iPad.storyboard */; };
-		DFF2117319102AA40052C291 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFF2117219102AA40052C291 /* ViewController.m */; };
-		DFF2117619102AA40052C291 /* MyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = DFF2117519102AA40052C291 /* MyScene.m */; };
+		DFF2117319102AA40052C291 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFF2117219102AA40052C291 /* ViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		DFF2117619102AA40052C291 /* MyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = DFF2117519102AA40052C291 /* MyScene.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		DFF2117819102AA40052C291 /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF2117719102AA40052C291 /* Spaceship.png */; };
-		DFF2117A19102AA40052C291 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFF2117919102AA40052C291 /* Images.xcassets */; };
 		DFF2118119102AA40052C291 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFF2118019102AA40052C291 /* XCTest.framework */; };
 		DFF2118219102AA40052C291 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFF2115719102AA40052C291 /* Foundation.framework */; };
 		DFF2118319102AA40052C291 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFF2115B19102AA40052C291 /* UIKit.framework */; };
 		DFF2118B19102AA40052C291 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DFF2118919102AA40052C291 /* InfoPlist.strings */; };
 		DFF2118D19102AA40052C291 /* OutlastDotGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DFF2118C19102AA40052C291 /* OutlastDotGameTests.m */; };
+		DFF211981910564B0052C291 /* Black Circle.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF211961910564B0052C291 /* Black Circle.png */; };
+		DFF211991910564B0052C291 /* Blue Circle.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF211971910564B0052C291 /* Blue Circle.png */; };
+		DFF2119C1911A1390052C291 /* SKEnemySprite.m in Sources */ = {isa = PBXBuildFile; fileRef = DFF2119B1911A1390052C291 /* SKEnemySprite.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		DFF2119F1911A39C0052C291 /* SKNestSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = DFF2119E1911A39C0052C291 /* SKNestSprite.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		DFF211A21912EA6E0052C291 /* SKPointSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = DFF211A11912EA6E0052C291 /* SKPointSprite.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +44,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DF25A4FC191834670056BA91 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		DFCCCCC51914223000AC2F4C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		DFF2115419102AA40052C291 /* OutlastDotGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OutlastDotGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFF2115719102AA40052C291 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DFF2115919102AA40052C291 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -56,12 +64,19 @@
 		DFF2117419102AA40052C291 /* MyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyScene.h; sourceTree = "<group>"; };
 		DFF2117519102AA40052C291 /* MyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyScene.m; sourceTree = "<group>"; };
 		DFF2117719102AA40052C291 /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
-		DFF2117919102AA40052C291 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		DFF2117F19102AA40052C291 /* OutlastDotGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OutlastDotGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFF2118019102AA40052C291 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		DFF2118819102AA40052C291 /* OutlastDotGameTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OutlastDotGameTests-Info.plist"; sourceTree = "<group>"; };
 		DFF2118A19102AA40052C291 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DFF2118C19102AA40052C291 /* OutlastDotGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OutlastDotGameTests.m; sourceTree = "<group>"; };
+		DFF211961910564B0052C291 /* Black Circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Black Circle.png"; sourceTree = "<group>"; };
+		DFF211971910564B0052C291 /* Blue Circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Blue Circle.png"; sourceTree = "<group>"; };
+		DFF2119A1911A1390052C291 /* SKEnemySprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKEnemySprite.h; sourceTree = "<group>"; };
+		DFF2119B1911A1390052C291 /* SKEnemySprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKEnemySprite.m; sourceTree = "<group>"; };
+		DFF2119D1911A39C0052C291 /* SKNestSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKNestSprite.h; sourceTree = "<group>"; };
+		DFF2119E1911A39C0052C291 /* SKNestSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKNestSprite.m; sourceTree = "<group>"; };
+		DFF211A01912EA6E0052C291 /* SKPointSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKPointSprite.h; sourceTree = "<group>"; };
+		DFF211A11912EA6E0052C291 /* SKPointSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKPointSprite.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF25A4FD191834670056BA91 /* Social.framework in Frameworks */,
 				DFF2115A19102AA40052C291 /* CoreGraphics.framework in Frameworks */,
 				DFF2115C19102AA40052C291 /* UIKit.framework in Frameworks */,
 				DFF2115E19102AA40052C291 /* SpriteKit.framework in Frameworks */,
@@ -111,6 +127,7 @@
 		DFF2115619102AA40052C291 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DF25A4FC191834670056BA91 /* Social.framework */,
 				DFF2115719102AA40052C291 /* Foundation.framework */,
 				DFF2115919102AA40052C291 /* CoreGraphics.framework */,
 				DFF2115B19102AA40052C291 /* UIKit.framework */,
@@ -131,8 +148,14 @@
 				DFF2117219102AA40052C291 /* ViewController.m */,
 				DFF2117419102AA40052C291 /* MyScene.h */,
 				DFF2117519102AA40052C291 /* MyScene.m */,
+				DFF2119A1911A1390052C291 /* SKEnemySprite.h */,
+				DFF2119B1911A1390052C291 /* SKEnemySprite.m */,
+				DFF2119D1911A39C0052C291 /* SKNestSprite.h */,
+				DFF2119E1911A39C0052C291 /* SKNestSprite.m */,
+				DFF211A01912EA6E0052C291 /* SKPointSprite.h */,
+				DFF211A11912EA6E0052C291 /* SKPointSprite.m */,
 				DFF2117719102AA40052C291 /* Spaceship.png */,
-				DFF2117919102AA40052C291 /* Images.xcassets */,
+				DFCCCCC51914223000AC2F4C /* Images.xcassets */,
 				DFF2116019102AA40052C291 /* Supporting Files */,
 			);
 			path = OutlastDotGame;
@@ -141,6 +164,8 @@
 		DFF2116019102AA40052C291 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				DFF211961910564B0052C291 /* Black Circle.png */,
+				DFF211971910564B0052C291 /* Blue Circle.png */,
 				DFF2116119102AA40052C291 /* OutlastDotGame-Info.plist */,
 				DFF2116219102AA40052C291 /* InfoPlist.strings */,
 				DFF2116519102AA40052C291 /* main.m */,
@@ -244,9 +269,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				DFF2117819102AA40052C291 /* Spaceship.png in Resources */,
-				DFF2117A19102AA40052C291 /* Images.xcassets in Resources */,
+				DFF211981910564B0052C291 /* Black Circle.png in Resources */,
+				DFCCCCC61914223000AC2F4C /* Images.xcassets in Resources */,
 				DFF2117019102AA40052C291 /* Main_iPad.storyboard in Resources */,
 				DFF2116D19102AA40052C291 /* Main_iPhone.storyboard in Resources */,
+				DFF211991910564B0052C291 /* Blue Circle.png in Resources */,
 				DFF2116419102AA40052C291 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,8 +294,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				DFF2117619102AA40052C291 /* MyScene.m in Sources */,
+				DFF211A21912EA6E0052C291 /* SKPointSprite.m in Sources */,
 				DFF2117319102AA40052C291 /* ViewController.m in Sources */,
+				DFF2119F1911A39C0052C291 /* SKNestSprite.m in Sources */,
 				DFF2116A19102AA40052C291 /* AppDelegate.m in Sources */,
+				DFF2119C1911A1390052C291 /* SKEnemySprite.m in Sources */,
 				DFF2116619102AA40052C291 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -402,7 +432,7 @@
 		DFF2119119102AA40052C291 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconn;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OutlastDotGame/OutlastDotGame-Prefix.pch";
@@ -416,7 +446,7 @@
 		DFF2119219102AA40052C291 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconn;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OutlastDotGame/OutlastDotGame-Prefix.pch";
@@ -486,6 +516,7 @@
 				DFF2119219102AA40052C291 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DFF2119319102AA40052C291 /* Build configuration list for PBXNativeTarget "OutlastDotGameTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +525,7 @@
 				DFF2119519102AA40052C291 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
